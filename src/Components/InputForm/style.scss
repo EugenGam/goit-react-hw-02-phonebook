@@ -1,0 +1,15 @@
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 30px;
+
+  &__button {
+    background-color: black;
+    height: 50px;
+    color: #ffffff;
+  }
+}

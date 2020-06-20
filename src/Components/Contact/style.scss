@@ -1,0 +1,31 @@
+.contactCard {
+  font-size: 24px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+  margin-bottom: 5px;
+
+  &__name {
+    margin-right: 15px;
+  }
+}
+
+.contactCard::before {
+  display: block;
+  content: '';
+  height: 8px;
+  width: 8px;
+  background-color: #000000;
+  position: relative;
+  top: 12px;
+  margin-right: 10px;
+}
+
+.contactCard__btn {
+  height: 24px;
+  width: 65px;
+  margin-left: 20px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #000000;
+}
